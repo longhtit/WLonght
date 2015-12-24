@@ -1,0 +1,13 @@
+# a comment - dòng này du?c b? qua
+# không theo dõi t?p tin có duôi .a 
+*.a
+# nhung theo dõi t?p lib.a, m?c dù b?n dang b? qua t?t c? t?p tin .a ? trên
+!lib.a
+# ch? b? qua t?p TODO ? thu m?c g?c, ch? không ph?i ? các thu m?c con subdir/TODO
+/TODO
+# b? qua t?t c? t?p tin trong thu m?c build/
+build/
+# b? qua doc/notes.txt, không ph?i doc/server/arch.txt
+# doc/*.txt
+# b? qua t?t c? t?p .txt trong thu m?c doc/
+# doc/**/*.txt
